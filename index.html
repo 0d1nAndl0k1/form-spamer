@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)http://teto-form-submitter.herokuapp.com/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Teto Form Submitter</title>
+  
+  <link rel="stylesheet" href="./index_files/bootstrap.min.css">
+  <link rel="stylesheet" href="./index_files/bootstrap-theme.min.css">
+
+  <script type="text/javascript" src="./index_files/home.js.download"></script>
+  <script src="./index_files/jquery-3.2.1.min.js.download"></script>
+  <script src="./index_files/bootstrap.min.js.download"></script>
+
+</head>
+
+<body>
+
+  <div class="page-header">
+    <pre style="position: relative;"><h1>0d1n'S FORM SUBMITTER <small>Welcome Troll!</small></h1><div class="open_grepper_editor" title="Edit &amp; Save To Grepper"></div></pre>
+    <h3> This form submitter only works with multiple submission forms, not with ones that require a login.</h3>
+    <a href="https://discord.com/invite/88JYyjHMkM" target="">Created by 0d1n!</a>
+  </div>
+
+<br>
+<div class="container">
+  <form>
+    <div class="form-group" id="id0">
+      <label for="url">URL - Copy Whats Between /forms/u/0/ and /formResponse </label>
+      <h4>https://docs.google.com/forms/&lt;URL-ID&gt;/viewform</h4>
+        <input type="text" class="form-control" id="url" name="url" placeholder="URL-ID">
+      </div>
+
+      <div id="input">
+        <div class="form-group" id="id1">
+          <label for="entry1">Put Entry ID and Value</label>
+          <input type="text" class="form-control" id="entry1" name="entry1" placeholder="entry.xxx">
+          <input type="text" class="form-control" id="text1" name="text1" placeholder="Value">
+        </div>
+      </div>
+
+      <div class="form-group" id="buttons1">
+        <button onclick="add_f(2);" type="button" class="btn btn-success">Add Field</button>
+        <button onclick="remove_f(1);" type="button" class="btn btn-warning">Remove Field</button><br><br>
+      </div>
+
+      <label for="entry1">Number of Submissions (Try using 10 To Not Get Blocked PLEASE ^-^)</label>
+      <input type="text" class="form-control" id="sub" name="sub" placeholder="Submissions">
+      <div class="form-group" id="buttons2">
+        <button type="button" onclick="req(1); return false;" class="btn btn-info">BLAST</button>
+      </div>
+
+    </form>
+  </div>
+
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title">Complete! :D</h4>
+        </div>
+        <div id="modalbody" class="modal-body">
+          <p>How Much Chaos You Caused (note: may not be that exact amount considering how many sent) : </p>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body></html>
